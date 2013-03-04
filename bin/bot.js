@@ -1991,7 +1991,7 @@
   handleUserJoin = function(user) {
     data.userJoin(user);
     data.users[user.id].updateActivity();
-    return API.sendChat("/em: " + user.username + " has joined the Room!");
+    return API.sendChat("/em: " + user.username + " ยินดีต้อนรับสู่ห้องเพลงไทยนะครับ \m/");
   };
 
   handleNewSong = function(obj) {
